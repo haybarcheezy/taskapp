@@ -9,6 +9,32 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body style="background: #000">
+      <nav class="navbar is-black">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <img src="img/placeholderlogo.png" alt="logo">
+                </a>
+                <span class="navbar-burger burger" data-target="navbarMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+            <div id="navBarMenu" class="navbar-menu has-text-centered">
+                <div class="navbar-end">
+                    <div class="tabs is-center">
+                        <ul>
+                            <li><a>Home</a></li>
+                            <li><a>Tasks</a></li>
+                            <li class="is-active"><a>To-do</a></li>
+                            <li><a>Calendar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
         <div class="container is-fluid is-black">
                 
             <section class="section"><div class="container has-text-centered">
@@ -32,9 +58,7 @@
                     <div class="card">
                       <div class="card-content card-todo">
                         <h3 class="Kulimsubtitle-3 is-4">Add To-do</h3>
-                        <p class="block">Join our network, but build and manage everything yourself.</p>
-                        <h4 class="title is-spaced is-5">$0 <small> / monthly</small></h4>
-                        <button class="button is-primary" type="button">Open App</button>
+                        <button class="addbutton" type="button">+</button>
                       </div>
                     </div>
                   </div>
@@ -42,11 +66,11 @@
             </section>
           </div>
 
-        <footer class="footer is-plain">
+        <footer class="footer is-plain is-black">
             <div class="container">
               <div class="level">
                 <div class="level-left">
-                  <div class="level-item"><a class="title is-4" href="#">Marqet Sales</a></div>
+                  <div class="level-item"><a class="title is-4" href="#">TaskApp</a></div>
                 </div>
                 <div class="level-right"><a class="level-item" href="#">Task Manager</a><a class="level-item" href="#">To-do's</a><a class="level-item" href="#">Calendar</a></div>
               </div>

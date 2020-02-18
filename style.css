@@ -5,6 +5,10 @@
   src: url("fonts/Inter-Bold.otf") format("opentype");
   }
 
+  .addbutton {
+    padding: 15px;
+    border-radius: 100px;
+  }
   .deletebutton {
     float: right;
     box-shadow:  0px 3px 9px rgba(237, 84, 84, 0.25);
@@ -159,6 +163,16 @@
 .newey {
   margin-top: -20rem;
 }
+
+::-moz-selection {
+  background-color: #bb86fc;
+  color: #fff;
+  }
+  
+  ::selection {
+  background-color: #bb86fc;
+  color: #fff;
+  }
 
 @-webkit-keyframes spinAround {
     from {
