@@ -1,132 +1,110 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Day 4 (Arrays)</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <section class="hero is-fullheight is-default is-bold">
-            <div class="hero-head">
-                <nav class="navbar">
-                    <div class="container">
-                        <div class="navbar-brand">
-                            <a class="navbar-item" href="../">
-                                <img src="../images/bulma.png" alt="Logo">
-                            </a>
-                            <span class="navbar-burger burger" data-target="navbarMenu">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </div>
-                        <div id="navbarMenu" class="navbar-menu">
-                            <div class="navbar-end">
-                                <div class="tabs is-right">
-                                    <ul>
-                                        <li class="is-active"><a>Home</a></li>
-                                        <li><a href="">About</a></li>
-                                        <li><a href="">Contact</a></li>
-                                    </ul>
-                                </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple TaskApp</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kulim+Park:600,700&display=block" rel="stylesheet">
+</head>
+
+<body>
+    <section class="hero is-fullheight is-bold"
+        style="background: linear-gradient(0deg, #23263c, black);">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="#">
+                            <img src="img/placeholderlogo.png" alt="logo">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navBarMenu" class="navbar-menu has-text-centered">
+                        <div class="navbar-end">
+                            <div class="tabs is-center">
+                                <ul>
+                                    <li class="is-active"><a>Home</a></li>
+                                    <li><a>Tasks</a></li>
+                                    <li><a>To-do</a></li>
+                                    <li><a>Calendar</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                </nav>
-            </div>
-            <div class="hero-body">
-                <div class="container has-text-centered">
-                    <div class="columns is-vcentered">
-                        <div class="column is-5">
-                            <figure class="image is-4by3">
-                                <img src="https://picsum.photos/800/600/?random" alt="Description">
-                            </figure>
-                        </div>
-                        <div class="column is-6 is-offset-1">
-                            <h1 class="title is-2">
-                                Client Taskboard
-                            </h1>
-                            <h2 class="subtitle is-4">
-                                Scroll below to see active task and reminders
-                            </h2>
-                            <br>
-                            <p class="has-text-centered">
-                                <a class="button is-medium is-info is-outlined">
-                                    Start Tasks
-                                </a>
-                            </p>
-                        </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <img class="screens" src="img/screens.png" alt="screens">
+            <div class="container has-text-centered">
+                <div class="columns">
+                    <div class="column newey">
+                        <span class="tag is-funky">Made simple</span>
+                        <h1 class="Kulimtitle">Organize your life.</h1>
+                        <h3 class="Kulimsubtitle">Task Manager. To-do. Calendar.</h3>
+                        <button class="newbutton" href="#">Get Started</button>
                     </div>
                 </div>
             </div>
-            <div class="hero-foot">
-                <div class="container">
-                    <div class="tabs is-centered">
-            
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section"><div class="container has-text-centered">
-            <h2 class="title">App Functions</h2>
-            <p class="subtitle">Stay organized.</p>
+        </div>
+        <div class="hero-foot" style="background-color: #000">
             <div class="columns">
-              <div class="column is-4">
-                <div class="level">
-                  <div class="level-item">
-                    <figure class="image is-128x128"><img class="is-rounded" src="https://bulma.dev/placeholder/pictures/bg_circle.svg?primary=00d1b2" alt=""></figure></div>
+                <div class="column black-foot">
+
                 </div>
-                <h5 class="title is-5">Task Manager</h5>
-                <p class="subtitle is-6">Check progress.</p>
-                <button class="button is-danger">Task Manager</button>
+            </div>
+        </div>
+    </section>
+    <div class="container is-fluid is-black">
+                
+        <section class="section"><div class="container has-text-centered">
+            <h2 class="Kulimsubtitle-2">Features</h2>
+            <div class="divider"></div>
+            <div class="columns">
+              <div class="column">
+                <div class="card">
+                  <div class="card-content card-hollow">
+                    <h3 class="Kulimsubtitle-3 is-4">Task Manager</h3>
+                    <p class="block">Join our network, but build and manage everything yourself.</p>
+                    <h4 class="title is-spaced is-5">$0 <small> / monthly</small></h4>
+                    <button class="button is-primary" type="button">Open App</button>
+                  </div>
+                </div>
               </div>
-              <div class="column is-4">
-                <div class="level">
-                  <div class="level-item">
-                    <figure class="image is-128x128"><img class="is-rounded" src="https://bulma.dev/placeholder/pictures/bg_circle.svg?primary=00d1b2" alt=""></figure></div>
+              <div class="column">
+                <div class="card">
+                  <div class="card-content card-hollow">
+                    <h3 class="Kulimsubtitle-3 is-4">To-do's</h3>
+                    <p class="block">We build what you need, but you still need to manage your data.</p>
+                    <h4 class="title is-spaced is-5">$0 <small>/ monthly</small></h4>
+                    <button class="button is-primary" type="button">Open App</button>
+                  </div>
                 </div>
-                <h5 class="title is-5">To-do's</h5>
-                <p class="subtitle is-6">Simple.</p>
-                <button class="button is-primary">To-do's</button>
               </div>
-              <div class="column is-4">
-                <div class="level">
-                  <div class="level-item">
-                    <figure class="image is-128x128"><img class="is-rounded" src="https://bulma.dev/placeholder/pictures/bg_circle.svg?primary=00d1b2" alt=""></figure></div>
+              <div class="column">
+                <div class="card">
+                  <div class="card-content card-hollow">
+                    <h3 class="Kulimsubtitle-3 is-4">Calendar</h3>
+                    <p class="block">We do everything for you, including managing your data.</p>
+                    <h4 class="title is-spaced is-5">$0 <small>/ monthly</small></h4>
+                    <button class="button is-primary" type="button">Open App</button>
+                  </div>
                 </div>
-                <h5 class="title is-5">Calendar</h5>
-                <p class="subtitle is-6">Save the date.</p>
-                <button class="button is-info">Calendar</button>
               </div>
             </div>
           </div>
         </section>
+      </div>
 
-        <footer class="footer is-plain">
-            <div class="container">
-              <div class="level">
-                <div class="level-left">
-                  <div class="level-item"><a class="title is-4" href="#">Marqet Sales</a></div>
-                </div>
-                <div class="level-right"><a class="level-item" href="#">Task Manager</a><a class="level-item" href="#">To-do's</a><a class="level-item" href="#">Calendar</a></div>
-              </div>
-              <hr>
-              <div class="columns">
-                <div class="column">
-                  <div class="buttons"><a class="button" href="#"><img src="placeholder/icons/twitter.svg" alt=""></a><a class="button" href="#"><img src="placeholder/icons/facebook-f.svg" alt=""></a><a class="button" href="#"><img src="placeholder/icons/instagram.svg" alt=""></a></div>
-                </div>
-                <div class="column has-text-centered has-text-right-tablet">
-                  <p class="subtitle is-6">&copy; 2019 Marqet Sales. All right reserved.</p>
-                </div>
-              </div>
-            </div>
-          </footer>
+    <script src="" async defer></script>
+</body>
 
-        
-
-        <script src="app.js" type=""></script>
-    </body>
 </html>

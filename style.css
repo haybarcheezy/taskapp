@@ -5,6 +5,73 @@
   src: url("fonts/Inter-Bold.otf") format("opentype");
   }
 
+  .deletebutton {
+    float: right;
+    box-shadow:  0px 3px 9px rgba(237, 84, 84, 0.25);
+    background-color: #ED5454;
+    border-color: #ED5454;
+    border-radius: 8px;
+    color: #fff;
+    padding: 5px 13px;
+    font-family: "Inter Bold";
+  }
+
+  .deletebutton:hover {
+    float: right;
+    box-shadow:  0px 3px 9px rgba(237, 84, 84, 0.25);
+    background-color: #ED5454;
+    border-color: #ED5454;
+    border-radius: 8px;
+    color: #fff;
+    padding: 5px 13px;
+    font-family: "Inter Bold";
+    cursor: pointer;
+  }
+
+  .divider {
+    background: #f2f4f8;
+    width: 100px;
+    border-width: 3px;
+    border-color: #23263c;
+    border-style: solid;
+    display: inline-block;
+    margin-bottom: 3rem;
+
+  }
+
+  .card-hollow {
+    border-style: solid!important;
+    border-width: .5px!important;
+    border-color: #23263c!important;
+    border-radius: 8px!important;
+    background-color: #000000!important;
+    transition: all .2s ease-in-out;
+  }
+
+  .card-hollow:hover {
+    border-color: #f2f4f8!important;
+    background-color: #23263c!important;
+    transform: scale(1.1);
+  }
+
+  .card-todo {
+    background: #f2f4f8!important;
+    border-color: #f2f4f8;
+    border-radius: 8px!important
+  }
+
+  .card-todo:hover {
+    border-color: #f2f4f8!important;
+    background-color: #f2f4f8!important;
+    transform: ;
+  }
+
+
+
+  .is-black {
+    background: #000!important;
+  }
+
 .tag.is-funky {
   background: linear-gradient(90deg, #F857A6 0%, #FF5858 100%);
   border-radius: 4px;
@@ -21,6 +88,12 @@
 }
 .newlist {
   padding: 5px!important;
+  border-color: #fff;
+  border-width: 1px;
+  margin: 10px 2px;
+  border-style: solid;
+  border-radius: 8px;
+  background: #fff;
 }
 
 .column.blackfoot {
@@ -28,32 +101,59 @@
 }
 
 .newbutton {
-  background: #00E1C6;
+  background: #23263c;
   border-radius: 7px;
   padding: 10px 21px;
-  border-color: #00e1c6; 
-  color: #000; 
+  border-color: #23263c; 
+  color: #f2f4f8; 
   font-size: 14px;
   font-family: 'Inter Bold', sans-serif;
   margin-top: 2.5rem;
+  transition: all .2s ease-in-out;
+}
+
+.newbutton:hover {
+  background: #23263c;
+  border-color: #f2f4f8; 
+  color: #f2f4f8;
+  transform: scale(1.1);
 }
 
 .Kulimtitle {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 900;
+  font-family: 'Kulim Park', sans-serif;
+  font-weight: 700;
   font-size: 4rem;
   line-height: 4.2rem;
-  color: #FFFFFF;
+  color: #f2f4f8;
   padding-top: 3rem;
 }
 
-.kulimsubtitle {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+.Kulimsubtitle {
+  font-family: 'Kulim Park', sans-serif;
+  font-weight: 700;
   font-size: 1.2rem;
   line-height: 1.2rem;
-  color: #ffffff;
+  color: #9ea1b8;
   padding-top: 2rem;
+}
+
+.Kulimsubtitle-2 {
+  font-family: 'Kulim Park', sans-serif;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  font-size: 2.4rem;
+  line-height: 1.7rem;
+  color: #9ea1b8;
+  padding-top: 2rem;
+}
+
+.Kulimsubtitle-3 {
+  font-family: 'Kulim Park', sans-serif;
+  font-weight: 600;
+  font-size: 1.7rem;
+  margin-bottom: 24px!important;
+  line-height: 1.7rem;
+  color: #9ea1b8;
 }
 
 .newey {
@@ -2140,13 +2240,13 @@
   }
   
   .button.is-primary {
-    background-color: #00d1b2;
+    background-color: #23263c;
     border-color: transparent;
     color: #fff;
   }
   
   .button.is-primary:hover, .button.is-primary.is-hovered {
-    background-color: #00c4a7;
+    background-color: #23263c;
     border-color: transparent;
     color: #fff;
   }
@@ -5720,7 +5820,7 @@
   }
   
   .card {
-    background-color: white;
+    background-color: #000;
     box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
     color: #4a4a4a;
     max-width: 100%;
