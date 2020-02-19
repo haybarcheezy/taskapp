@@ -1,93 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>To-Do App</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body style="background: #000">
-      <nav class="navbar is-black">
-        <div class="container">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="#">
-                    <img src="img/placeholderlogo.png" alt="logo">
-                </a>
-                <span class="navbar-burger burger" data-target="navbarMenu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </span>
-            </div>
-            <div id="navBarMenu" class="navbar-menu has-text-centered">
-                <div class="navbar-end">
-                    <div class="tabs is-center">
-                        <ul>
-                            <li><a>Home</a></li>
-                            <li><a>Tasks</a></li>
-                            <li class="is-active"><a>To-do</a></li>
-                            <li><a>Calendar</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-        <div class="container is-fluid is-black">
-                
-            <section class="section"><div class="container has-text-centered">
-                <h2 class="Kulimsubtitle-2">Lists</h2>
-                <div class="divider"></div>
-                <div class="columns">
-                  <div class="column">
-                    <div class="card">
-                      <div class="card-content card-todo">
-                        <h3 class="Kulimsubtitle-3 is-4">To-do's</h3>
-                            <form id="our-form">
-                                <input id="our-input" class="input" type="text" placeholder="insert to-do">
-                            </form>
-                            <ul id="our-list">
-                    
-                            </ul>
-                      </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                      <div class="card-content card-todo">
-                        <h3 class="Kulimsubtitle-3 is-4">Add To-do</h3>
-                        <button class="addbutton" type="button">+</button>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </section>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>To-Do App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background: #000">
+  <nav class="navbar is-black">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <img src="img/placeholderlogo.png" alt="logo">
+        </a>
+        <span class="navbar-burger burger" data-target="navbarMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <div id="navBarMenu" class="navbar-menu has-text-centered">
+        <div class="navbar-end">
+          <div class="tabs is-center">
+            <ul>
+              <li><a>Home</a></li>
+              <li><a>Tasks</a></li>
+              <li class="is-active"><a>To-do</a></li>
+              <li><a>Calendar</a></li>
+            </ul>
           </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container is-fluid is-black">
+
+    <section id="our-section" class="section">
+      <div class="container has-text-centered">
+        <h2 class="Kulimsubtitle-2">To-do's</h2>
+        <div class="divider"></div>
+        <div class="columns">
+          <div class="column is-6 is-offset-3">
+            <div class="card">
+              <div class="card-content card-todo">
+                <h3 class="Kulimsubtitle-3 is-4">To-do's</h3>
+                <form id="our-form">
+                  <input id="our-input" class="input" type="text" placeholder="insert to-do">
+                </form>
+                <ul id="our-list">
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <footer class="footer is-plain is-black">
-            <div class="container">
-              <div class="level">
-                <div class="level-left">
-                  <div class="level-item"><a class="title is-4" href="#">TaskApp</a></div>
-                </div>
-                <div class="level-right"><a class="level-item" href="#">Task Manager</a><a class="level-item" href="#">To-do's</a><a class="level-item" href="#">Calendar</a></div>
+          <div class="container">
+            <div class="level">
+              <div class="level-left">
+                <div class="level-item"><a class="title is-4" href="#">TaskApp</a></div>
               </div>
-              <hr>
-              <div class="columns">
-                <div class="column">
-                  <div class="buttons"><a class="button" href="#"><img src="placeholder/icons/twitter.svg" alt=""></a><a class="button" href="#"><img src="placeholder/icons/facebook-f.svg" alt=""></a><a class="button" href="#"><img src="placeholder/icons/instagram.svg" alt=""></a></div>
-                </div>
-                <div class="column has-text-centered has-text-right-tablet">
-                  <p class="subtitle is-6">&copy; 2019 Marqet Sales. All right reserved.</p>
-                </div>
+              <div class="level-right"><a class="level-item" href="#">Task Manager</a><a class="level-item"
+                  href="#">To-do's</a><a class="level-item" href="#">Calendar</a></div>
+            </div>
+            <hr>
+            <div class="columns">
+              <div class="column">
+                <div class="buttons"><a class="button" href="#"><img src="placeholder/icons/twitter.svg" alt=""></a><a
+                    class="button" href="#"><img src="placeholder/icons/facebook-f.svg" alt=""></a><a class="button"
+                    href="#"><img src="placeholder/icons/instagram.svg" alt=""></a></div>
+              </div>
+              <div class="column has-text-centered has-text-right-tablet">
+                <p class="subtitle is-6">&copy; 2019 Marqet Sales. All right reserved.</p>
               </div>
             </div>
-          </footer>
+          </div>
+        </footer>
 
-        
 
-        <script src="app.js" type=""></script>
-    </body>
+
+        <script src="app.js" type="" async="true"></script>
+</body>
+
 </html>
