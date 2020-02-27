@@ -5,13 +5,20 @@
   src: url("fonts/Inter-Bold.otf") format("opentype");
   }
 
+.button-link {
+  color: #f2f4f8;
+}
+
+.button-link:hover {
+  color: #f2f4f8;
+}
   .addbutton {
     padding: 15px;
     border-radius: 100px;
   }
   .deletebutton {
     float: right;
-    box-shadow:  0px 3px 9px rgba(237, 84, 84, 0.25);
+    box-shadow:  0 3px 9px rgba(237, 84, 84, 0.25);
     background-color: #ED5454;
     border-color: #ED5454;
     border-radius: 8px;
@@ -53,9 +60,10 @@
   }
 
   .card-hollow:hover {
-    border-color: #f2f4f8!important;
+    border-color: #F857A6!important;
     background-color: #23263c!important;
     transform: scale(1.1);
+    cursor: pointer;
   }
 
   .card-todo {
@@ -108,18 +116,23 @@
   border-radius: 7px;
   padding: 10px 21px;
   border-color: #23263c; 
-  color: #f2f4f8; 
+  color: #f2f4f8;
+  border-width: 0;
   font-size: 14px;
   font-family: 'Inter Bold', sans-serif;
-  margin-top: 2.5rem;
+  margin-top: 2.5rem!important;
   transition: all .2s ease-in-out;
 }
 
 .newbutton:hover {
   background: #23263c;
-  border-color: #f2f4f8; 
+  border-color: #F857A6;
   color: #f2f4f8;
   transform: scale(1.1);
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+
 }
 
 .Kulimtitle {
