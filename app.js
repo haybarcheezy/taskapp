@@ -12,11 +12,8 @@ function createItem(x) {
 ourForm.addEventListener("submit", (e) => {
     e.preventDefault()
     createItem(ourInput.value)
-}
-)
+})
 
 function deleteIt(elementToDelete) {
     elementToDelete.parentElement.remove()
 }
-
-

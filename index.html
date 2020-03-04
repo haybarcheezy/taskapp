@@ -2,104 +2,115 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Simple TaskApp</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Kulim+Park:600,700&display=block" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple TaskApp</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kulim+Park:600,700&display=block" rel="stylesheet">
 </head>
 
 <body>
-  <section class="hero is-fullheight is-bold" style="background: linear-gradient(0deg, #23263c, black);">
-    <div class="hero-head">
-      <nav class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="#">
-              <img src="img/placeholderlogo.png" alt="logo">
-            </a>
-            <span class="navbar-burger burger" data-target="navbarMenu">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navBarMenu" class="navbar-menu has-text-centered">
-            <div class="navbar-end">
-              <div class="tabs is-center">
-                <ul>
-                  <li><a class="active-nav">Home</a></li>
-                  <li><a class="navitem">Tasks</a></li>
-                  <li><a class="navitem">To-do</a></li>
-                  <li><a class="navitem">Calendar</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div class="hero-body">
-      <img class="screens" src="img/screens.png" alt="screens">
-      <div class="container has-text-centered">
-        <div class="columns">
-          <div class="column newey">
-            <span class="tag is-funky">Made simple</span>
-            <h1 class="Kayaktitle">Organize your life.</h1>
-            <h3 class="Kayaksubtitle" style="padding-bottom: 2.5rem;">Task Manager. To-do. Calendar.</h3>
-            <a class="newbutton" href="https://haybarcheezy.github.io/taskapp/todo">Get Started</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="hero-foot" style="background-color: #000">
-      <div class="columns">
-        <div class="column black-foot"></div>
-        </div>
-      </div>
-  </section>
-  <div class="container is-fluid is-black">
+    <section class="hero is-fullheight is-bold" style="background: linear-gradient(0deg, #23263c, black);">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="https://haybarcheezy.github.io/taskapp">
+                            <svg width="192" height="71" viewBox="0 0 192 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 20L39.1865 50.75H2.81347L21 20Z" fill="url(#paint0_linear)"/>
+                <path d="M63.7838 47C63.5198 47 63.2918 46.904 63.0998 46.712C62.9078 46.52 62.8118 46.292 62.8118 46.028V29.54H56.8358C56.5718 29.54 56.3438 29.444 56.1518 29.252C55.9598 29.06 55.8638 28.832 55.8638 28.568V22.772C55.8638 22.508 55.9598 22.28 56.1518 22.088C56.3438 21.896 56.5718 21.8 56.8358 21.8H77.9318C78.1958 21.8 78.4238 21.896 78.6158 22.088C78.8078 22.28 78.9038 22.508 78.9038 22.772V28.568C78.9038 28.832 78.8078 29.06 78.6158 29.252C78.4238 29.444 78.1958 29.54 77.9318 29.54H71.9558V46.028C71.9558 46.292 71.8598 46.52 71.6678 46.712C71.4758 46.904 71.2478 47 70.9838 47H63.7838ZM84.0471 47.36C82.7031 47.36 81.4911 47.108 80.4111 46.604C79.3551 46.1 78.5271 45.416 77.9271 44.552C77.3511 43.688 77.0631 42.716 77.0631 41.636C77.0631 38.396 79.6911 36.32 84.9471 35.408L88.7631 34.796V34.76C88.7631 34.064 88.7031 33.596 88.5831 33.356C88.4631 33.092 88.1631 32.96 87.6831 32.96C87.4191 32.96 87.1911 33.008 86.9991 33.104C86.8071 33.2 86.6031 33.344 86.3871 33.536C86.1711 33.728 85.9791 33.872 85.8111 33.968C85.6671 34.064 85.4631 34.112 85.1991 34.112H79.0791C78.8631 34.112 78.6711 34.052 78.5031 33.932C78.3591 33.788 78.2871 33.608 78.2871 33.392C78.2871 32.696 78.6231 31.916 79.2951 31.052C79.9911 30.188 81.0471 29.456 82.4631 28.856C83.9031 28.232 85.6671 27.92 87.7551 27.92C90.9711 27.92 93.3831 28.592 94.9911 29.936C96.5991 31.28 97.4031 33.2 97.4031 35.696V46.028C97.4031 46.292 97.3071 46.52 97.1151 46.712C96.9231 46.904 96.6951 47 96.4311 47H90.1311C89.8671 47 89.6391 46.904 89.4471 46.712C89.2551 46.52 89.1591 46.292 89.1591 46.028V45.02C88.6311 45.74 87.9231 46.316 87.0351 46.748C86.1471 47.156 85.1511 47.36 84.0471 47.36ZM86.5311 42.032C87.2511 42.032 87.8151 41.804 88.2231 41.348C88.6551 40.892 88.8711 40.196 88.8711 39.26V39.224L86.7471 39.692C85.6911 39.932 85.1631 40.376 85.1631 41.024C85.1631 41.312 85.2831 41.552 85.5231 41.744C85.7631 41.936 86.0991 42.032 86.5311 42.032ZM109.25 47.36C107.09 47.36 105.29 47.084 103.85 46.532C102.41 45.956 101.342 45.26 100.646 44.444C99.9736 43.628 99.6376 42.86 99.6376 42.14C99.6376 41.9 99.7216 41.696 99.8896 41.528C100.058 41.336 100.262 41.24 100.502 41.24H106.91C107.15 41.264 107.378 41.348 107.594 41.492C107.81 41.612 107.954 41.696 108.026 41.744C108.314 41.936 108.566 42.08 108.782 42.176C108.998 42.272 109.238 42.32 109.502 42.32C109.718 42.32 109.91 42.272 110.078 42.176C110.246 42.08 110.33 41.948 110.33 41.78C110.33 41.54 110.258 41.336 110.114 41.168C109.97 41 109.622 40.832 109.07 40.664C108.542 40.496 107.714 40.304 106.586 40.088C104.666 39.728 103.082 39.08 101.834 38.144C100.61 37.184 99.9976 35.828 99.9976 34.076C99.9976 33.02 100.346 32.024 101.042 31.088C101.762 30.128 102.806 29.36 104.174 28.784C105.566 28.208 107.21 27.92 109.106 27.92C110.978 27.92 112.634 28.208 114.074 28.784C115.514 29.336 116.618 30.02 117.386 30.836C118.154 31.652 118.538 32.42 118.538 33.14C118.538 33.38 118.454 33.596 118.286 33.788C118.118 33.956 117.938 34.04 117.746 34.04H111.698C111.482 34.04 111.254 33.992 111.014 33.896C110.798 33.776 110.594 33.644 110.402 33.5C109.898 33.14 109.454 32.96 109.07 32.96C108.878 32.96 108.71 33.02 108.566 33.14C108.422 33.236 108.35 33.368 108.35 33.536C108.35 33.776 108.422 33.98 108.566 34.148C108.734 34.292 109.094 34.448 109.646 34.616C110.222 34.784 111.11 34.952 112.31 35.12C114.71 35.48 116.474 36.236 117.602 37.388C118.754 38.516 119.33 39.776 119.33 41.168C119.33 43.112 118.454 44.636 116.702 45.74C114.95 46.82 112.466 47.36 109.25 47.36ZM122.672 47C122.408 47 122.18 46.904 121.988 46.712C121.796 46.52 121.7 46.292 121.7 46.028V22.412C121.7 22.148 121.796 21.92 121.988 21.728C122.18 21.536 122.408 21.44 122.672 21.44H128.972C129.236 21.44 129.464 21.536 129.656 21.728C129.848 21.92 129.944 22.148 129.944 22.412V34.076L133.112 28.892C133.352 28.484 133.7 28.28 134.156 28.28H141.428C141.668 28.28 141.872 28.364 142.04 28.532C142.208 28.7 142.292 28.904 142.292 29.144C142.292 29.312 142.232 29.492 142.112 29.684L137.18 36.704L143.012 45.668C143.108 45.812 143.156 45.968 143.156 46.136C143.156 46.376 143.072 46.58 142.904 46.748C142.736 46.916 142.532 47 142.292 47H134.732C134.252 47 133.88 46.796 133.616 46.388L129.944 40.268V46.028C129.944 46.292 129.848 46.52 129.656 46.712C129.464 46.904 129.236 47 128.972 47H122.672ZM148.541 53.84C148.325 53.84 148.133 53.768 147.965 53.624C147.821 53.48 147.749 53.3 147.749 53.084C147.749 53.06 147.749 53.012 147.749 52.94C147.725 52.868 147.737 52.796 147.785 52.724L150.665 45.812L143.717 29.396C143.693 29.324 143.681 29.24 143.681 29.144C143.729 28.904 143.837 28.7 144.005 28.532C144.173 28.364 144.365 28.28 144.581 28.28H150.665C151.217 28.28 151.601 28.568 151.817 29.144L154.769 37.352L157.829 29.144C158.069 28.568 158.477 28.28 159.053 28.28H165.065C165.281 28.28 165.473 28.364 165.641 28.532C165.809 28.676 165.893 28.844 165.893 29.036C165.893 29.18 165.881 29.3 165.857 29.396L155.705 52.976C155.465 53.552 155.045 53.84 154.445 53.84H148.541Z" fill="white"/>
+                <path d="M20.4295 37.1341L12.4335 29.1392L9 32.5722L20.4295 44L44 20.433L40.5665 17L20.4295 37.1341Z" fill="white"/>
+                <defs>
+                <linearGradient id="paint0_linear" x1="16.5246" y1="23.3607" x2="37.8681" y2="53.4238" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FF5858"/>
+                <stop offset="1" stop-color="#F857A6"/>
+                </linearGradient>
+                </defs>
+                </svg>
 
-    <section class="section">
-      <div class="container has-text-centered">
-        <h2 class="Kayaksubtitle-2">Features</h2>
-        <div class="divider"></div>
-        <div class="columns">
-          <div class="column">
-            <div class="card" onclick="window.location.href = 'https://haybarcheezy.github.io/taskapp/todo'">
-              <div class="card-content card-hollow">
-                <h3 class="Kayaksubtitle-3 is-4">Task Manager</h3>
-                <p class="block">Join our network, but build and manage everything yourself.</p>
-                <h4 class="title is-spaced is-5">$0 <small> / monthly</small></h4>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <div class="card-content card-hollow">
-                <h3 class="Kayaksubtitle-3 is-4">To-do's</h3>
-                <p class="block">We build what you need, but you still need to manage your data.</p>
-                <h4 class="title is-spaced is-5">$0 <small>/ monthly</small></h4>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <div class="card-content card-hollow">
-                <h3 class="Kayaksubtitle-3 is-4">Calendar</h3>
-                <p class="block">We do everything for you, including managing your data.</p>
-                <h4 class="title is-spaced is-5">$0 <small>/ monthly</small></h4>
-              </div>
-            </div>
-          </div>
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+                        <span></span>
+                        <span></span>
+                        </span>
+                    </div>
+                    <div id="navBarMenu" class="navbar-menu has-text-centered">
+                        <div class="navbar-end">
+                            <div class="tabs is-center">
+                                <ul>
+                                    <li><a class="active-nav">Home</a></li>
+                                    <li><a class="navitem">Tasks</a></li>
+                                    <li><a class="navitem">To-do</a></li>
+                                    <li><a class="navitem">Calendar</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
-      </div>
+        <div class="hero-body">
+            <img class="screens" src="img/screens.png" alt="screens">
+            <div class="container has-text-centered">
+                <div class="columns">
+                    <div class="column newey">
+                        <span class="tag is-funky">Made simple</span>
+                        <h1 class="Kayaktitle">Organize your life.</h1>
+                        <h3 class="Kayaksubtitle" style="padding-bottom: 2.5rem;">Task Manager. To-do. Calendar.</h3>
+                        <a class="newbutton" href="https://haybarcheezy.github.io/taskapp/todo">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-foot" style="background-color: #000">
+            <div class="columns">
+                <div class="column black-foot"></div>
+            </div>
+        </div>
     </section>
-  </div>
+    <div class="container is-fluid is-black">
 
-  <script src="" async defer></script>
+        <section class="section">
+            <div class="container has-text-centered">
+                <h2 class="Kayaksubtitle-2">Features</h2>
+                <div class="divider"></div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="card" onclick="window.location.href = 'https://haybarcheezy.github.io/taskapp/todo'">
+                            <div class="card-content card-hollow">
+                                <h3 class="Kayaksubtitle-3 is-4">Task Manager</h3>
+                                <p class="block">Join our network, but build and manage everything yourself.</p>
+                                <h4 class="title is-spaced is-5">$0 <small> / monthly</small></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-content card-hollow">
+                                <h3 class="Kayaksubtitle-3 is-4">To-do's</h3>
+                                <p class="block">We build what you need, but you still need to manage your data.</p>
+                                <h4 class="title is-spaced is-5">$0 <small>/ monthly</small></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-content card-hollow">
+                                <h3 class="Kayaksubtitle-3 is-4">Calendar</h3>
+                                <p class="block">We do everything for you, including managing your data.</p>
+                                <h4 class="title is-spaced is-5">$0 <small>/ monthly</small></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="" async defer></script>
 </body>
 
 </html>
