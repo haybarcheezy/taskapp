@@ -17,3 +17,4 @@ ourForm.addEventListener("submit", (e) => {
 function deleteIt(elementToDelete) {
     elementToDelete.parentElement.remove()
 }
+
