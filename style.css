@@ -26,7 +26,9 @@
     src: local('Kayak Sans Bold'), url('fonts/Kayak Sans Bold.woff') format('woff');
 }
 
-#our-input {}
+#our-input {
+    transition: all .2s ease-in-out;
+}
 
 .active-nav {
     color: #F857A6!important;
@@ -98,6 +100,7 @@
     background-color: #23263c!important;
     transform: scale(1.1);
     cursor: pointer;
+    transition: all .2s ease-in-out;
 }
 
 .card-todo {
@@ -164,6 +167,7 @@
     border-color: #F857A6;
     color: #f2f4f8;
     transform: scale(1.1);
+    transition: all .2s ease-in-out;
     cursor: pointer;
     border-width: 2px;
     border-style: solid;
@@ -4850,6 +4854,7 @@ a.tag:hover {
     font-family: "Kayak Sans";
     letter-spacing: .2px;
     font-size: 16px;
+    transition: all .2s ease-in-out;
 }
 
 .input::-moz-placeholder,
