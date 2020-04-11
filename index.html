@@ -42,9 +42,7 @@
                             <div class="tabs is-center">
                                 <ul>
                                     <li><a class="active-nav">Home</a></li>
-                                    <li><a class="navitem">Tasks</a></li>
-                                    <li><a class="navitem">To-do</a></li>
-                                    <li><a class="navitem">Calendar</a></li>
+                                    <li><a class="nav-item" href="/todo.html">Create To-do</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -58,7 +56,7 @@
                 <div class="columns">
                     <div class="column newey">
                         <span class="tag is-funky">Made simple</span>
-                        <h1 class="Kayaktitle">Organize your life.</h1>
+                        <h1 class="Kayaktitle">A Simple To-Do App</h1>
                         <h3 class="Kayaksubtitle" style="padding-bottom: 2.5rem;">Task Manager. To-do. Calendar.</h3>
                         <a class="newbutton" href="https://haybarcheezy.github.io/taskapp/todo">Get Started</a>
                     </div>
@@ -83,16 +81,16 @@
                             <div class="card-content card-hollow">
                                 <h3 class="Kayaksubtitle-3 is-4">Task Manager</h3>
                                 <p class="block">Join our network, but build and manage everything yourself.</p>
-                                <h4 class="title is-spaced is-5">$0 <small> / monthly</small></h4>
+                                <h4 class="title is-spaced is-5">COMING SOON <small> / monthly</small></h4>
                             </div>
                         </div>
                     </div>
                     <div class="column">
-                        <div class="card">
+                        <div id="todo" class="card">
                             <div class="card-content card-hollow">
                                 <h3 class="Kayaksubtitle-3 is-4">To-do's</h3>
                                 <p class="block">We build what you need, but you still need to manage your data.</p>
-                                <h4 class="title is-spaced is-5">$0 <small>/ monthly</small></h4>
+                                <h4 class="title is-spaced is-5"> Get Started</h4>
                             </div>
                         </div>
                     </div>
@@ -101,7 +99,7 @@
                             <div class="card-content card-hollow">
                                 <h3 class="Kayaksubtitle-3 is-4">Calendar</h3>
                                 <p class="block">We do everything for you, including managing your data.</p>
-                                <h4 class="title is-spaced is-5">$0 <small>/ monthly</small></h4>
+                                <h4 class="title is-spaced is-5">COMING SOON</h4>
                             </div>
                         </div>
                     </div>
@@ -110,7 +108,13 @@
         </section>
     </div>
 
-    <script src="" async defer></script>
+    <script>
+        let toDo = document.getElementById('todo');
+
+        toDo.addEventListener("click", function() {
+            window.location = houstonwebandseo.com;
+        })
+    </script>
 </body>
 
 </html>
